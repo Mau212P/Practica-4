@@ -32,3 +32,60 @@ a:link{
 a:active{
     color: rgb(58, 246, 183);
 }
+a:visited{
+    color: rgb(12, 184, 236);
+}
+li{
+    display: inline;
+}
+nav#Menu2{
+    background-color: rgb(208, 202, 202) ;
+    margin-right: 1px;
+    padding: 1;
+    margin-left: -15;
+    margin-right: -10px;
+}
+article#Primerap{
+    background-color: #fff;
+    margin-left: 50;
+    margin-right: 50px;
+    margin-top: 15;
+}
+div.cuadro{
+    background-image: url("images/lineas.webp");
+    color: white;
+    margin-top: 1;
+    padding: 1;
+}
+div.actions{
+    background-color: #333;
+    margin-top: 1;
+    padding: 1;
+    ;
+}
+div.marco{
+    border-style: groove;
+    border-width: thick;
+    border-color: black;
+    border-width: 1px;
+
+}
+div.caja-con-titulo{
+    background-image: url("images/lineas.webp");
+    color: #fff;
+    padding: 1;
+    margin-top: 10;
+}
+div.caja-enlaces{
+    background: #333;
+    color: #fff;
+    padding: 2;
+    margin-top: 10;
+}
+img#grafica{
+    width: 587;
+    text-align: center;
+}
+div.grafic{
+  border-style:groove;
+}
