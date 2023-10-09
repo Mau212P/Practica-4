@@ -1,12 +1,17 @@
 <html>
-   <head>
-    <link href="Practica2.1.css" rel="stylesheet" type="text/css" />
-    <link href="common.css" rel="stylesheet" type="text/css" /> 
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/main.css" rel="stylesheet" type="text/css" /> 
+   
+    
     <title>!aCRM</title>
   </head>
   
+
   <body>
     <header>
+      <div class="Top">
       <nav id="Menu1">
         <ul>
           <li><a href="#">Home</a></li>
@@ -14,11 +19,13 @@
           <li><a href="#">Inventory</a></li>
         </ul>
       </nav>
+    </div>
       <div id="background">
         <div class="titulo">
           <h1> !aCRM </h1>
-        </div>
       </div>
+    </div class="Middle">
+    <div>
       <nav id="Menu2">
         <ul>
           <li><a href="#">Contacts</a></li>
@@ -28,11 +35,12 @@
           <li><a href="#">Evaluation Copies</a></li>
         </ul>
       </nav>
+    </div>
     </header>
   
     <article id="Primerap">
       <div class="info" style="text-align: center;">
-        <img src="" style="max-width: 200px; max-height: 200px; margin: 0 auto;" />
+        <img src="CSS\images\a12.jpeg"/>
         <h2>Jack Smith </h2>
       </div>
       <div class="segundap">
@@ -41,6 +49,7 @@
           <div class="cuadro">
             <h3>Personal Details</h3>
           </div>
+          <div class="marco">
           <p>
             <i>Address:</i> 
             1 Microsoft Way<br>
@@ -53,11 +62,13 @@
             <i>Postal: </i> 
             98052-8300<br>
           </p>
+        </div>
+    
           <div class="cuadros">
             <div class="actions">
               <ul>
-                <li><a href="#" class="actionEdit">Edit</a></li>
-                <li><a href="#" class="actionFlag">Flag</a></li>
+                <li><button><a href="#" class="actionEdit"><img src="media\lapiz.png" width="11" alt="">Edit</a></li></button>
+                <li><button><a href="#" class="actionFlag"><img src="media\keep.png" width="12">Flag</a></li></button>
               </ul>
             </div>
           </div>
@@ -70,24 +81,28 @@
           <div class="cuadro">
             <h3>Contact</h3>
           </div>
+          <div class="marco">
           <p>
             <em>Phone:</em> <a href="+1(425)882-8080">+1(425)882-8080</a><br>
             <em>Email:</em> <a href="jacksmith@microsoft.com">jacksmith@microsoft.com</a><br>
           </p>
+          </div>
           <div class="cuadros">
             <div class="actions">
               <ul>
-                <li><a href="#" class="actionEdit">Edit</a></li>
-                <li><a href="#" class="actionFlag">Flag</a></li>
+                <li><button><a href="#" class="actionEdit"><img src="media\lapiz.png" width="11" alt="">Edit</a></li></button>
+                <li><button><a href="#" class="actionFlag"><img src="media\keep.png" width="12">Flag</a></li></button>
               </ul>
             </div>
           </div>
         </section>
-         <section>
+        <section>
       
 <div class="caja-con-titulo">
     <h2 class="titulo-borde-superior">Sales Activity</h2>
-    <img src="ruta/a/la/imagen.jpg" alt="GRAFICA" class="imagen-caja">
+    </div>
+    <div class="grafic">
+    <img id="grafica" src="CSS\images\a213.jpeg" alt="GRAFICA" class="imagen-caja">
 </div>
 
 <div class="caja-enlaces">
@@ -98,7 +113,6 @@
     <p class="descripcion"> Copyright 2013 Not a Real CRM</p>
 </div>
 </section>
-       
-  </body>
+</body>
   
   </html>
