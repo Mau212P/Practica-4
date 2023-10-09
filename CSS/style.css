@@ -1,0 +1,16 @@
+/* Importa los estilos de static.css */
+@import url("static.css");
+
+/* Importa los estilos de liquid.css */
+@import url("liquid.css");
+
+/* Estilos generales */
+nav#Menu1{
+    text-align: right;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+
